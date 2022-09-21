@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <h1>Rating form</h1>
+      <h1>Feedback form</h1>
     </div>
   );
 }
