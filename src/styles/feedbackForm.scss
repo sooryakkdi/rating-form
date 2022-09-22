@@ -89,6 +89,12 @@ body {
   color: $orange;
 }
 
+.thankYouIcon {
+  max-height: 18rem;
+  max-width: 9rem;
+  width: 100%;
+}
+
 .messageDiv {
   gap: 1.7rem;
 }
@@ -122,14 +128,15 @@ body {
   flex-direction: column;
   color: $white;
   align-items: center;
+  font-size: 11px;
 
   p {
     color: #7c8798;
     text-align: center;
-    font-size: 19px;
-    padding: 0 18px;
+    font-size: 15px;
+    padding: 0 5px;
     margin: 0;
-    line-height: 1.7rem;
+    line-height: 1.2rem;
   }
 }
 

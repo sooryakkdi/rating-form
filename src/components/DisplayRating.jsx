@@ -8,7 +8,7 @@ export const DisplayRating = (props) => {
   const { rating } = props.location.state;
   return (
     <div className='feedbackDisplayDiv'>
-      <img src={illustrator} alt='thank-you' />
+      <img className='thankYouIcon' src={illustrator} alt='thank-you' />
       <div className='showRatingDiv'>
         <p> You selected {rating} out of 5</p>
       </div>
