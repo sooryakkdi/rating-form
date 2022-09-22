@@ -8,7 +8,7 @@ export const RequestRating = () => {
   return (
     <div className='feedbackDiv'>
       <div className='roundDiv'>
-        <FaStar className='starIcon' size='20' />
+        <FaStar className='starIcon' size='15' />
       </div>
       <RatingMessage />
       <Rating />

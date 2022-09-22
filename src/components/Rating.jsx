@@ -5,6 +5,11 @@ const numbers = [1, 2, 3, 4, 5];
 
 export const Rating = () => {
   const [currentValue, setCurrentValue] = useState(0);
+  const handleSubmit = (e) => {
+    if (currentValue === 0) {
+      e.preventDefault();
+    }
+  };
 
   return (
     <>
@@ -34,7 +39,7 @@ export const Rating = () => {
           }}
           className='btn btn-primary'
         >
-          <button>Submit</button>
+          <button onClick={handleSubmit}>Submit</button>
         </Link>
       </div>
     </>
